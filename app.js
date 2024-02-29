@@ -20,7 +20,9 @@ const genCompChoice = () => {
 
 const drawGame = () => {
   msg.innerText = "Game was draw. Play again!";
-  msg.style.backgroundColor = "#081b31";
+  msg.style.backgroundColor = "black";
+  msg.style.borderRadius = "25px";
+  msg.style.padding = "20px";
   drawCount++;
   document.getElementById("draw-score").innerText = drawCount;
 };
